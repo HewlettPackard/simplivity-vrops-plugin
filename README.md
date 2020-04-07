@@ -8,7 +8,7 @@ VMware vRealize Operations for HPE SimpliVity provides integrated and highly aut
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.0.0) here.
 
 ### v1.0.0
-  - This release adds support for vROps 7.5. The Management pack supports vROps 7.5 and omnistack versions 3.7.10 and below.
+  - This release adds support for vROps 7.5. The Management pack supports vROps 7.5 and omnistack versions 3.7.5 and below.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.0.0) here.
   
   **Please note that the certification of the management pack is still under process, but users can use the MP as of now and can update it accordingly in the future.
