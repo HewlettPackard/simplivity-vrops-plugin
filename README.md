@@ -3,7 +3,12 @@
 VMware vRealize Operations for HPE SimpliVity provides integrated and highly automated performance, capacity, configuration compliance, and cost management tools to the vRealize Operations custom GUI. The software uses the VMware®’s analytics engine that analyzes what is normal and then applies that baseline to a dynamic server environment. For information on vRealize Operations, see VMware vRealize Operations Enterprise documentation at docs.vmware.com/en/vRealize-Operations-Manager/index.html. When the VMware vRealize Operations for HPE SimpliVity is installed, the Custom HPE SimpliVity Dashboards is added to the vRealize Operations custom GUI. The HPE SimpliVity Dashboard allows you to monitor resources which are HPE SimpliVity specific and not part of the stock vROps suite. The attributes that can be monitored include the performance and capacity related data like compression ratios etc. which are specific to HPE SimpliVity. The analytics engine allows for proactive monitoring of the HPE SimpliVity resource environment and indicates the state of the resources. The analytics engine also provides for proactive prediction which can determine the point in the future when a resource will reach a predefined critical level.
 
 ## Management pack versions
+### v1.1.0
+  - This release adds support for vROps 8.0. The Management pack supports vROps 8.0 and omnistack versions 4.0.0 and below.
+  - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.0.0) here.
+
 ### v1.0.0
+  - This release adds support for vROps 7.5. The Management pack supports vROps 7.5 and omnistack versions 3.7.10 and below.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.0.0) here.
   
   **Please note that the certification of the management pack is still under process, but users can use the MP as of now and can update it accordingly in the future.
@@ -11,6 +16,8 @@ VMware vRealize Operations for HPE SimpliVity provides integrated and highly aut
 ## Installation
 
 Please refer the [Video Demo](https://github.com/HewlettPackard/simplivity-vrops-plugin/blob/master/vROps%20for%20HPE%20Simplivity%20-%20Demo.mp4) or the [User Guide](https://github.com/HewlettPackard/simplivity-vrops-plugin/blob/master/vROps%20For%20HPE%20Simplivity%20-%20User%20Guide.pdf) for detailed steps on how to install the MP.
+
+Please note: The user guide and video demo is built for vROps version 7.5. There might be a few UI changes in the subsequest vROps versions. Please refer the appropriate guide from VMware® for the usage.
 
 ## Metrics supported and Default Dashboards
 
