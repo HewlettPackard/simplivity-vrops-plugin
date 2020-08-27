@@ -1,0 +1,799 @@
+﻿WEBVTT
+
+NOTE duration:"00:06:54.8730000"
+
+NOTE language:en-us
+
+NOTE Confidence: 0.888733863830566
+
+072af9ed-0def-4cc1-acee-2263f039fdc2
+00:00:01.130 --> 00:00:04.914
+ Hi, Welcome to the demonstration of VMware vRealize Operations 
+
+NOTE Confidence: 0.888733863830566
+
+5b1d9dfa-1d88-423a-847b-fe25828a2887
+00:00:04.914 --> 00:00:06.290
+ plugin for HPE SimpliVity. 
+
+NOTE Confidence: 0.888148128986359
+
+f036cf3c-922f-4a0e-86ce-60a5591c6ae3
+00:00:06.930 --> 00:00:10.782
+ Users have been waiting for a tool to monitor their HPE SimpliVity 
+
+NOTE Confidence: 0.888148128986359
+
+e95e0685-1791-4e7d-83ff-4942b439e12b
+00:00:10.782 --> 00:00:13.671
+hyper converged infrastructure objects through a 
+
+NOTE Confidence: 0.888148128986359
+
+96b9d908-bdbb-4889-95ec-4c18f0400db6
+00:00:13.671 --> 00:00:16.881
+ single interface. Now the HPE SimpliVity vROps plugin 
+
+NOTE Confidence: 0.888148128986359
+
+e90d59cd-7e0e-4221-8e4a-69bbf97fe737
+00:00:16.881 --> 00:00:21.054
+ allows you do just that and more through the VMware vRealize 
+
+NOTE Confidence: 0.891076385974884
+
+254a0400-d40a-49bb-9e6c-7b581779d0bf
+00:00:21.054 --> 00:00:24.755
+operations manager. It allows
+you to track the capacity,
+
+NOTE Confidence: 0.891076385974884
+
+02bb9106-e39b-4683-b758-ca56d6f8f8e6
+00:00:24.755 --> 00:00:27.515
+performance and compute information of your HPE SimpliVity objects
+
+NOTE Confidence: 0.891076385974884
+
+6dd9360c-316f-43bc-bffc-1e8b1272fc5f
+00:00:27.515 --> 00:00:30.620
+Custom dashboards allow you to monitor
+
+NOTE Confidence: 0.891076385974884
+
+b07b1c35-4688-4766-a6fb-061dab59bc97
+00:00:30.620 --> 00:00:34.070
+the data which are HPE SimpliVity specific. The Analytics engine
+
+NOTE Confidence: 0.891076385974884
+
+38501886-5dd2-4c7a-b6ee-51795509965b
+00:00:34.070 --> 00:00:36.830
+ allows for proactive monitoring of the HPE SimpliVity
+
+NOTE Confidence: 0.891076385974884
+
+1ccd2b47-d6c7-4bc3-9398-30be9f1466f6
+00:00:36.830 --> 00:00:39.590
+infrastructure and indicates the
+state of the resources.
+
+NOTE Confidence: 0.878619194030762
+
+12ae6270-f186-421e-b183-f65a3fc42480
+00:00:40.820 --> 00:00:45.110
+ Now let's see how we can set up the HPE SimpliVity vROps
+
+NOTE Confidence: 0.878619194030762
+
+c8d91f18-ae8f-4ce1-9a58-9b64e4c83ad6
+00:00:45.110 --> 00:00:47.750
+Management Pack. First, download
+the specific management pack
+
+NOTE Confidence: 0.878619194030762
+
+1a34ba6f-3e78-41d8-a686-19e01add98f1
+00:00:47.750 --> 00:00:52.370
+file with the extension .pak from the SimpliVity vROps github repository
+
+NOTE Confidence: 0.878619194030762
+
+2a79808a-b2fc-4e1f-858e-025f79df844d
+00:00:52.370 --> 00:00:55.670
+repository. You can go through the Readme to understand 
+
+NOTE Confidence: 0.878619194030762
+
+5d598515-1d5e-4ee8-b69e-eccb5a16083e
+00:00:55.670 --> 00:00:58.970
+which .pak file is compatible with your vROps manager.
+
+NOTE Confidence: 0.89723938703537
+
+09689f75-e9fc-432a-ab52-7638104d9aa1
+00:00:58.970 --> 00:01:02.677
+ Once you have downloaded the .pak file into the 
+
+NOTE Confidence: 0.89723938703537
+
+1ebbcdf0-a7e2-457e-a017-5405e3da393a
+00:01:02.677 --> 00:01:06.010
+ local environment, access your vROps manager and log in with 
+
+NOTE Confidence: 0.89723938703537
+
+2e72796b-6a48-4d84-b8a1-591983d7a672
+00:01:06.010 --> 00:01:08.737
+your credentials. Now go to
+administration on the top
+
+NOTE Confidence: 0.89723938703537
+
+10d5662f-d203-474b-85a6-1b07fc78c538
+00:01:08.737 --> 00:01:11.767
+followed by the repository
+section on the left. Scroll down
+
+NOTE Confidence: 0.89723938703537
+
+c23f1c00-c025-4649-a159-336026fd53f0
+00:01:11.767 --> 00:01:13.888
+until you see an option to add/upgrade.
+
+NOTE Confidence: 0.889198303222656
+
+d72ae6d3-db27-4122-907b-a22c671d44e1
+00:01:13.888 --> 00:01:17.228
+Click on this to
+install your management pack.
+
+NOTE Confidence: 0.878937721252441
+
+f68703e6-ff71-4fae-a894-e602e1c6a0d1
+00:01:17.810 --> 00:01:20.753
+Browse to your management pack
+file you have downloaded earlier.
+
+NOTE Confidence: 0.878937721252441
+
+3a56e491-9057-48df-b21a-f9e20d60da1f
+00:01:20.753 --> 00:01:23.369
+Select the necessary
+options applicable and click
+
+NOTE Confidence: 0.878937721252441
+
+5ed01cd0-ea59-408b-b2e4-638feff3acbf
+00:01:23.369 --> 00:01:27.293
+on upload. Once your upload is
+done, click on next to read
+
+NOTE Confidence: 0.878937721252441
+
+c1b8ce54-39d3-4a9e-b1b4-0359755acae6
+00:01:27.293 --> 00:01:30.563
+ the end user license agreement. Accept the license and install 
+
+NOTE Confidence: 0.878937721252441
+
+a6fb0306-d76d-412a-be67-4e3bfee939f2
+00:01:30.563 --> 00:01:33.506
+the management pack. Once you
+have done with the
+
+NOTE Confidence: 0.878937721252441
+
+dd3f5289-9d74-4058-b003-2be64f610160
+00:01:33.506 --> 00:01:36.776
+ installation, you can see the installed management pack in the 
+
+NOTE Confidence: 0.878937721252441
+
+31467bda-d5d3-486a-bbfa-c547c871acd3
+00:01:36.776 --> 00:01:37.430
+ repository tab. 
+
+NOTE Confidence: 0.877878546714783
+
+256b590c-0761-4e43-8145-8c0d9be329d6
+00:01:39.170 --> 00:01:42.170
+To configure your management
+pack, go to other accounts and
+
+NOTE Confidence: 0.877878546714783
+
+d96f7a84-03c1-49ae-8eb7-52c18d6efcbd
+00:01:42.170 --> 00:01:45.470
+click on add account. Select the HPE SimpliVity management pack and
+
+NOTE Confidence: 0.877878546714783
+
+8b79adcb-e152-4277-996f-0214b8ec3386
+00:01:45.470 --> 00:01:48.770
+ enter in your Federation details like the name of the Federation,
+
+NOTE Confidence: 0.877878546714783
+
+e1214af3-1af5-4e0d-b5cb-83a2fb54aaed
+00:01:48.770 --> 00:01:51.170
+OVC/MVA IP address and 
+
+NOTE Confidence: 0.880267322063446
+
+0788c2bd-8bdb-4797-a665-ce44f302bf84
+00:01:51.170 --> 00:01:55.425
+the credentials. Click on plus
+sign to add the credentials for
+
+NOTE Confidence: 0.880267322063446
+
+dffe2de6-bcdf-4c91-b244-874a194b91fe
+00:01:55.425 --> 00:01:59.650
+ the OVC/MVA. Now click on test connection to see if a 
+
+NOTE Confidence: 0.880267322063446
+
+128a6db6-2bc5-4fde-9085-8da7e6f6dcdb
+00:01:59.650 --> 00:02:02.900
+secure connection can be
+established. Once it gives you a
+
+NOTE Confidence: 0.880267322063446
+
+c7733ef0-3bd7-4e21-875d-d3339a16d953
+00:02:02.900 --> 00:02:06.150
+successful response, you can add
+your Federation and the adapter
+
+NOTE Confidence: 0.880267322063446
+
+b278c555-8b53-46c2-8301-4628426236e4
+00:02:06.150 --> 00:02:09.400
+will start collecting data for
+this Federation. Like this you
+
+NOTE Confidence: 0.880267322063446
+
+c4d6e02d-2a66-4a02-ab36-953ae5ef8310
+00:02:09.400 --> 00:02:12.975
+can add multiple Federation and
+track this data at the same
+
+NOTE Confidence: 0.880267322063446
+
+b7e99446-16aa-478e-b6ac-26fa458c8f10
+00:02:12.975 --> 00:02:16.550
+place. Once the status becomes OK you can see the data 
+
+NOTE Confidence: 0.880267322063446
+
+9d6a7d9f-8e89-454b-8bd4-67cb2cc506ca
+00:02:16.550 --> 00:02:20.125
+ collected in the dashboards. vROps adapter makes use of HPE
+
+NOTE Confidence: 0.880267322063446
+
+3ffb9229-2dd5-40ab-914d-08d814f7d460
+00:02:20.125 --> 00:02:23.050
+SimpliVity REST API available from the OVC or MVA,
+
+NOTE Confidence: 0.847892105579376
+
+67a0996a-abc1-4f54-9ba6-06c6320e6f1c
+00:02:23.090 --> 00:02:24.210
+to collect this data. 
+
+NOTE Confidence: 0.923914909362793
+
+190f0827-e914-42ae-a334-76f10a12b2e6
+00:02:24.750 --> 00:02:28.358
+Now let's explore the dashboards
+and see how the data is
+
+NOTE Confidence: 0.923914909362793
+
+c9c6380c-ac7d-4c1d-8a52-9d6f15e169b8
+00:02:28.358 --> 00:02:29.670
+displayed in the dashboards.
+
+NOTE Confidence: 0.887529909610748
+
+65091b5f-9cf3-464d-931b-fa3b2efbe4c1
+00:02:30.210 --> 00:02:33.714
+The first dashboard, as you can
+see, is that Getting Started for
+
+NOTE Confidence: 0.909636318683624
+
+99cd2f14-1a76-4e94-a748-da9ee1b700f3
+00:02:33.714 --> 00:02:36.864
+HPE SimpliVity. This dashboard provides you a high level
+
+NOTE Confidence: 0.909636318683624
+
+cc730588-9a97-4785-829d-09e3fdf496d2
+00:02:36.864 --> 00:02:39.784
+ overview of each dashboards and the link for the same. 
+
+NOTE Confidence: 0.892947971820831
+
+6b56a8f0-6af4-4ce5-8d2b-0d3ef93f3a2c
+00:02:41.660 --> 00:02:44.960
+Let's see our Federation
+dashboard. As you can see all
+
+NOTE Confidence: 0.892947971820831
+
+ef6205d4-e602-4db4-90e9-bb4286cdcfca
+00:02:44.960 --> 00:02:47.930
+the federations configured to
+the management pack appears on
+
+NOTE Confidence: 0.892947971820831
+
+bcb8be45-2afe-472d-ac60-eb7b059bdf53
+00:02:47.930 --> 00:02:51.230
+ the HPE SimpliVity Federation dashboard. You can see the top 
+
+NOTE Confidence: 0.892947971820831
+
+e04732ad-b310-4b6b-82c7-6d5fefbd5246
+00:02:51.230 --> 00:02:54.530
+federations by the free space and
+allocated capacity. Once you
+
+NOTE Confidence: 0.892947971820831
+
+48c5e797-b314-43ce-b98f-260ef5dff49c
+00:02:54.530 --> 00:02:58.160
+choose a Federation from the
+Federation list, you can see the
+
+NOTE Confidence: 0.892947971820831
+
+42529bc1-5c09-420c-8ab6-efedbd2bc06a
+00:02:58.160 --> 00:03:01.460
+clusters are filtered and the
+scoreboard as well as the
+
+NOTE Confidence: 0.892947971820831
+
+28637554-16c9-4fea-87da-b7751b86717e
+00:03:01.460 --> 00:03:04.760
+rolling view chart gets loaded. You can see all the capacity 
+
+NOTE Confidence: 0.892947971820831
+
+703ab18a-3c86-4d6f-bcef-70e96f276d67
+00:03:04.760 --> 00:03:07.400
+information for the selected
+Federation in the scoreboard
+
+NOTE Confidence: 0.892947971820831
+
+4a79f354-3e68-4259-a4df-5f58b1f5320e
+00:03:07.400 --> 00:03:11.030
+widget and the same data as a
+historical timeline in the
+
+NOTE Confidence: 0.930832982063293
+
+3a330cf8-bbdd-430d-a199-559f69145c0b
+00:03:11.030 --> 00:03:14.670
+ rolling view chart. The chart help you understand the trend in 
+
+NOTE Confidence: 0.930832982063293
+
+0a01157a-a47a-448a-9420-f7d6656e0f20
+00:03:14.670 --> 00:03:17.640
+which you're consuming the
+resources and helps you make
+
+NOTE Confidence: 0.930832982063293
+
+d2e8c73a-9938-41da-a609-e499caab147b
+00:03:17.640 --> 00:03:18.960
+appropriate decisions based on this.
+
+NOTE Confidence: 0.911162376403809
+
+00c4d0ff-0c31-49b5-a839-7276e0be6990
+00:03:18.960 --> 00:03:22.888
+ These dashboards contain SimpliVity specific data, 
+
+NOTE Confidence: 0.911162376403809
+
+128869da-647f-4ecf-8c65-34aa73eee81f
+00:03:22.888 --> 00:03:25.054
+such as deduplication,
+compression, and efficiency
+
+NOTE Confidence: 0.911162376403809
+
+a1412124-2368-4293-84af-8eda6ea9f604
+00:03:25.054 --> 00:03:28.303
+ratios, capacity savings and
+other data. The data gets
+
+NOTE Confidence: 0.911162376403809
+
+8e2de4ae-4a0f-4572-9960-85329b1bd880
+00:03:28.303 --> 00:03:31.913
+updated every 5 minutes so
+that you can monitor your
+
+NOTE Confidence: 0.911162376403809
+
+198238c1-2946-40be-9b61-700ca26b5b05
+00:03:31.913 --> 00:03:35.162
+infrastructure in real time.
+All the dashboards provide the
+
+NOTE Confidence: 0.911162376403809
+
+55695461-bf0d-45c5-ba0c-e6b6f931648d
+00:03:35.162 --> 00:03:38.050
+same look and feel as the
+Federation dashboard,
+
+NOTE Confidence: 0.911162376403809
+
+d2cded7d-f5a3-4da1-89dc-0a943f4169b7
+00:03:38.050 --> 00:03:41.299
+providing customers a good way
+to monitor their environment
+
+NOTE Confidence: 0.911162376403809
+
+8fd80c49-8520-46c9-89f7-b61070f0ed3a
+00:03:41.299 --> 00:03:41.660
+easily.
+
+NOTE Confidence: 0.883701980113983
+
+a20076dd-7c0c-404a-909f-51caad412bd5
+00:03:43.530 --> 00:03:46.980
+Cluster dashboard. It also have
+the top clusters by allocated
+
+NOTE Confidence: 0.883701980113983
+
+9868b2e1-a707-4c8d-8adb-12131da197c8
+00:03:46.980 --> 00:03:50.775
+ capacity and free space, rolling view chart and the scoreboard to 
+
+NOTE Confidence: 0.883701980113983
+
+69e0d9e0-dd91-44c2-b176-efca52a6e33c
+00:03:50.775 --> 00:03:54.570
+show the latest values. Besides
+these data we get to observe
+
+NOTE Confidence: 0.883701980113983
+
+353a2810-87aa-4696-9552-88b9394332eb
+00:03:54.570 --> 00:03:58.020
+ that performance changes of the selected cluster through the IOPS,
+
+NOTE Confidence: 0.883701980113983
+
+487588c6-aebd-491b-b7eb-a2aedd7f917a
+00:03:58.020 --> 00:03:59.745
+throughput and latency metric 
+
+NOTE Confidence: 0.917853057384491
+
+a78c2317-2da1-4b63-a8db-f64635d459ed
+00:03:59.745 --> 00:04:03.130
+charts. Performance data is
+updated to each minute, making
+
+NOTE Confidence: 0.917853057384491
+
+b6b25da6-d346-42fd-a7a6-9c04cd0ebd53
+00:04:03.130 --> 00:04:06.230
+this a great way to keep track
+of your infrastructure
+
+NOTE Confidence: 0.91056102514267
+
+8ce18587-0b66-419b-a5ff-1ecd46f0afeb
+00:04:06.230 --> 00:04:10.100
+performance. Host dashboard. This
+is the exact same as the cluster
+
+NOTE Confidence: 0.91056102514267
+
+c1b08607-5cc6-4755-adcb-4c4d82264791
+00:04:10.100 --> 00:04:13.649
+dashboard, but at the host level
+you can also view the list of
+
+NOTE Confidence: 0.91056102514267
+
+657e03dd-d873-483a-968e-1ef973580d9d
+00:04:13.649 --> 00:04:16.379
+virtual machines available in
+the selected host in the last
+
+NOTE Confidence: 0.925678193569183
+
+d3e48e87-fb36-4e67-9c05-a9c021928d1e
+00:04:16.379 --> 00:04:19.924
+ widget. VM dashboard. In this dashboard you get to 
+
+NOTE Confidence: 0.925678193569183
+
+ea089410-1f87-4de7-8116-f6e2b5710d24
+00:04:19.924 --> 00:04:22.468
+view the compute and memory
+information along with
+
+NOTE Confidence: 0.925678193569183
+
+4188f900-cdc5-4d66-b1aa-3ae21290a044
+00:04:22.468 --> 00:04:25.648
+capacity and performance. You
+can also keep track of the
+
+NOTE Confidence: 0.925678193569183
+
+f3ffa19a-2947-4fc6-9d48-61c967d8819a
+00:04:25.648 --> 00:04:28.192
+state of the virtual machine
+from this dashboard.
+
+NOTE Confidence: 0.880482971668243
+
+71f75ba8-6bc1-48fa-9408-f5122f618369
+00:04:32.110 --> 00:04:35.950
+ Backup dashboard. It lists the backups for all the virtual 
+
+NOTE Confidence: 0.880482971668243
+
+3905ab89-a886-4461-ba38-fb6b2718d00a
+00:04:35.950 --> 00:04:39.406
+ machines, from the configured federations. You can see the 
+
+NOTE Confidence: 0.880482971668243
+
+c8a9ce9b-f8a6-49b6-94b2-dc1a60337f39
+00:04:39.406 --> 00:04:42.094
+information about the
+backups in the scoreboard.
+
+NOTE Confidence: 0.880482971668243
+
+69f1364c-3d7a-4313-a1f5-5e9d5e0a2033
+00:04:42.094 --> 00:04:45.550
+ Unique backup size is not available in vROps by 
+
+NOTE Confidence: 0.880482971668243
+
+8879d848-aae4-40bc-858f-0714e489cd57
+00:04:45.550 --> 00:04:48.622
+default, as its calculation
+is a resource intensive
+
+NOTE Confidence: 0.880482971668243
+
+c848ebea-ec5c-4d35-b670-ba8a35d6f027
+00:04:48.622 --> 00:04:51.310
+operation. Users can trigger
+the calculation whenever
+
+NOTE Confidence: 0.880482971668243
+
+c9911906-aef7-4e0b-b877-769dab115d90
+00:04:51.310 --> 00:04:53.998
+ needed through the HPE SimpliVity REST API. 
+
+NOTE Confidence: 0.873257994651794
+
+c81f4713-ac7c-4665-b8e1-8ff0d4d148fd
+00:04:55.520 --> 00:04:59.120
+ Capacity dashboard. This is a different dashboard which helps 
+
+NOTE Confidence: 0.873257994651794
+
+bd787738-103b-4dc9-958c-7ad372a70f80
+00:04:59.120 --> 00:05:02.320
+ in viewing the capacity information across different HPE
+
+NOTE Confidence: 0.873257994651794
+
+e7a57f0b-9702-4862-97d6-9e9140406130
+00:05:02.320 --> 00:05:05.920
+ SimpliVity objects. Selection on each level filters the list 
+
+NOTE Confidence: 0.873257994651794
+
+9de43257-8663-4f4b-bc19-2e5a13cb42da
+00:05:05.920 --> 00:05:09.120
+ below and populate the scoreboard beside with the 
+
+NOTE Confidence: 0.860859096050262
+
+a786ccdd-ea83-442b-9651-f3779520255c
+00:05:09.120 --> 00:05:13.488
+capacity information. That is,
+if a Federation is selected from
+
+NOTE Confidence: 0.860859096050262
+
+34d5ee3d-cdff-4844-a341-dd7e7d5fa80d
+00:05:13.488 --> 00:05:17.098
+Federation list then the widgets
+below get filtered with the
+
+NOTE Confidence: 0.860859096050262
+
+ab59524c-ebab-4170-87cb-1f070d0a1c74
+00:05:17.098 --> 00:05:18.542
+clusters of selected Federation.
+
+NOTE Confidence: 0.880997121334076
+
+82df682c-88fb-49d7-8d9e-2d3df6f1dcdf
+00:05:19.080 --> 00:05:21.800
+ This process continues for the rest of the SimpliVity objects 
+
+NOTE Confidence: 0.880997121334076
+
+e20ef298-ae59-4731-855e-a7d291cd6f5f
+00:05:21.800 --> 00:05:22.888
+listed below as well.
+
+NOTE Confidence: 0.89548522233963
+
+6124a148-2f69-49d1-93c8-944c4f91f45d
+00:05:23.560 --> 00:05:27.980
+ This is a great dashboard as users will be able to view
+
+NOTE Confidence: 0.89548522233963
+
+c48ccea2-a048-4f38-9ecb-5020fc4df560
+00:05:27.980 --> 00:05:30.360
+capacity information of different HPE SimpliVity objects together.
+
+NOTE Confidence: 0.894641518592834
+
+66f914a7-573e-464e-a21b-df525740e8c1
+00:05:30.360 --> 00:05:34.214
+Performance dashboard. It has the same design as 
+
+NOTE Confidence: 0.877496063709259
+
+31a2acaf-e535-41b0-8976-b3e4e2228a4f
+00:05:34.214 --> 00:05:37.166
+capacity dashboard. It helps in
+viewing performance metrics
+
+NOTE Confidence: 0.877496063709259
+
+549f959c-2bd0-4f8e-95a7-309e97377b6e
+00:05:37.166 --> 00:05:40.076
+ across the SimpliVity objects side by side as charts. 
+
+NOTE Confidence: 0.889954507350922
+
+9cfced4a-cf93-4ea9-b073-bd4b01a129c2
+00:05:40.720 --> 00:05:43.149
+ We also provide modularize dashboard splitted across 
+
+NOTE Confidence: 0.889954507350922
+
+b44dd3e6-f380-4cfc-82cb-a52e87e7d865
+00:05:43.149 --> 00:05:46.272
+ capacity and performance data for all SimpliVity objects, as 
+
+NOTE Confidence: 0.889954507350922
+
+7f609ecd-5a15-4521-b727-8eccdbdf0ebb
+00:05:46.272 --> 00:05:48.354
+you can see in the video.
+
+NOTE Confidence: 0.912087082862854
+
+d9361827-ef03-4817-a662-6cb516652527
+00:05:58.660 --> 00:06:01.999
+ Metric configuration and logs. Each of the dashboard widgets 
+
+NOTE Confidence: 0.912087082862854
+
+056a4276-7049-4fd6-9812-5abe7d7a6c04
+00:06:01.999 --> 00:06:05.709
+are configured using a metric
+configuration file which you can
+
+NOTE Confidence: 0.912087082862854
+
+6fa8fc5a-ce0c-4742-8e0c-6e84ac05a31a
+00:06:05.709 --> 00:06:09.048
+access from metric configuration
+in configuration section of the
+
+NOTE Confidence: 0.915146112442017
+
+2f8cd481-039d-4b74-9223-60268bf85d0b
+00:06:09.048 --> 00:06:12.338
+administration tab. You can edit
+these files to customize the
+
+NOTE Confidence: 0.915146112442017
+
+bc550b99-b1f7-4188-b2ab-0bcd5ebf9e37
+00:06:12.338 --> 00:06:13.784
+dashboard data and the unit in
+
+NOTE Confidence: 0.909309566020966
+
+bb1ae139-54a2-485e-9a84-c5dfa542ec4f
+00:06:13.784 --> 00:06:17.500
+which they are shown. You can
+also access the logs of the
+
+NOTE Confidence: 0.909309566020966
+
+3997533a-3301-4111-b1e2-cdba20f8dc6e
+00:06:17.500 --> 00:06:19.660
+management pack for self
+diagnosis of the system.
+
+NOTE Confidence: 0.865106046199799
+
+97eb6e66-ba32-47b1-b87d-6aca64074ab0
+00:06:20.230 --> 00:06:23.266
+Go to logs in support section
+of administration tab and go
+
+NOTE Confidence: 0.865106046199799
+
+613cde0d-5d44-44fc-92fb-2abcd608effd
+00:06:23.266 --> 00:06:26.302
+to the collector folder to open up collector.log file
+
+NOTE Confidence: 0.865106046199799
+
+71ea0757-ab7e-4a99-8472-626a951472d3
+00:06:26.302 --> 00:06:27.406
+to view the logs.
+
+NOTE Confidence: 0.880406200885773
+
+c2ea34f0-8719-44df-b91d-9df75843dc58
+00:06:31.330 --> 00:06:34.156
+IT Administration had been made easy for HPE SimpliVity
+
+NOTE Confidence: 0.880406200885773
+
+01deed77-ac7e-4036-bf47-ade1d08d53eb
+00:06:34.156 --> 00:06:36.668
+ using vROps. IT Administrators are able to 
+
+NOTE Confidence: 0.880406200885773
+
+320f6f4a-466e-4ef2-9d2a-27d66ab11030
+00:06:36.668 --> 00:06:39.494
+ monitor their SimpliVity infrastructure in a single 
+
+NOTE Confidence: 0.880406200885773
+
+7fd5fa97-a4b0-40cd-a972-2904756ac812
+00:06:39.494 --> 00:06:42.006
+portal along with other
+plugins which are available
+
+NOTE Confidence: 0.880406200885773
+
+47b4f4fa-4df9-41b4-bcc1-1af00f318101
+00:06:42.006 --> 00:06:45.146
+ for vROps manager. This concludes the demo and thank 
+
+NOTE Confidence: 0.880406200885773
+
+603c9b2e-30fb-440e-94b6-704c701597c8
+00:06:45.146 --> 00:06:46.402
+you for your attention.
+
