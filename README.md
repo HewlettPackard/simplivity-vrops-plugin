@@ -3,21 +3,26 @@
 VMware vRealize Operations for HPE SimpliVity provides integrated and highly automated performance, capacity, configuration compliance, and cost management tools to the vRealize Operations custom GUI. The software uses the VMware®’s analytics engine that analyzes what is normal and then applies that baseline to a dynamic server environment. For information on vRealize Operations, see VMware vRealize Operations Enterprise documentation at docs.vmware.com/en/vRealize-Operations-Manager/index.html. When the VMware vRealize Operations for HPE SimpliVity is installed, the Custom HPE SimpliVity Dashboards is added to the vRealize Operations custom GUI. The HPE SimpliVity Dashboard allows you to monitor resources which are HPE SimpliVity specific and not part of the stock vROps suite. The attributes that can be monitored include the performance and capacity related data like compression ratios etc. which are specific to HPE SimpliVity. The analytics engine allows for proactive monitoring of the HPE SimpliVity resource environment and indicates the state of the resources. The analytics engine also provides for proactive prediction which can determine the point in the future when a resource will reach a predefined critical level.
 
 ## Management pack versions
+### v1.4.0
+  - This release adds support for vROps 8.2.0. The management pack  adds supports vROps 8.2.0, 8.1.1 and omnistack versions 4.0.1 and below.
+  - Fixes the limit issue showing more than 500 vms.
+  - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.4.0) here.
+
 ### v1.3.0
-  - This release adds support for vROps 8.1. The Management pack supports vROps 8.1 and omnistack versions 4.0.1 and below.
-  - Updated the User Guide and Demo video for the Management pack.
+  - This release adds support for vROps 8.1. The management pack supports vROps 8.1 and omnistack versions 4.0.1 and below.
+  - Updated the User Guide and Demo video for the management pack.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.3.0) here.
 
 ### v1.2.0
-  - This release adds support for SimpliVity MVA. The Management pack supports vROps 8.0 and omnistack versions 4.0.1 and below.
+  - This release adds support for SimpliVity MVA. The management pack supports vROps 8.0 and omnistack versions 4.0.1 and below.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.2.0) here.
 
 ### v1.1.0
-  - This release adds support for vROps 8.0. The Management pack supports vROps 8.0 and omnistack versions 4.0.0 and below.
+  - This release adds support for vROps 8.0. The management pack supports vROps 8.0 and omnistack versions 4.0.0 and below.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.1.0) here.
 
 ### v1.0.0
-  - This release adds support for vROps 7.5. The Management pack supports vROps 7.5 and omnistack versions 3.7.5 and below.
+  - This release adds support for vROps 7.5. The management pack supports vROps 7.5 and omnistack versions 3.7.5 and below.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.0.0) here.
   
   **Please note that the certification of the management pack is still under process, but users can use the MP as of now and can update it accordingly in the future.
