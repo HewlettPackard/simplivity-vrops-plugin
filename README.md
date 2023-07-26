@@ -9,6 +9,9 @@ VMware vRealize Operations for HPE SimpliVity provides integrated and highly aut
   - Fixes the limit issue showing more than 500 virtual machines and backups.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.4.0) here.
 
+#### Update as of July'23
+  - This version of MP is tested on VMware vROps 8.10 and HPE SimplVity 4.3.0, and is found to be compatible without any issues. Hence, the support of this version of the MP is extended to VMware vROps 8.10 and below, and HPE SimpliVity 4.3.0 and below.
+
 ### v1.3.0
   - This release adds support for vROps 8.1. The management pack supports vROps 8.1 and omnistack versions 4.0.1 and below.
   - Updated the User Guide and Demo video for the management pack.
