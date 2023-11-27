@@ -7,6 +7,7 @@ VMware vRealize Operations for HPE SimpliVity provides integrated and highly aut
   - This version supports vROps 8.12.0 and below, and Omnistack versions 4.1.0 and below.
   - Added additional fields to Host Metrics.
   - Please check out the [Release Notes](https://github.com/HewlettPackard/simplivity-vrops-plugin/releases/tag/v1.5.0) here.
+  
 ### v1.4.0
   - This version supports vROps 8.3.0 and below, and Omnistack versions 4.1.0 and below.
   - New feature to choose to avoid data collection of virtual machines and backups from configuration page.
